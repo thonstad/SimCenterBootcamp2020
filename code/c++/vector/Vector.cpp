@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 #include "Vector.h"
 #include <math.h>
 
@@ -34,6 +35,7 @@ Vector::norm(void) const
   for (int i=0; i<size; i++) 
     sum += data[i]*data[i];
   return sqrt(sum);
+
 }
 
 double 
